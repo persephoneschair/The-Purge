@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Newtonsoft.Json;
 using NaughtyAttributes;
 using System.Linq;
 
@@ -25,15 +24,12 @@ public class Operator : SingletonMonoBehaviour<Operator>
     public override void Awake()
     {
         base.Awake();
-        if (recoveryMode)
-            skipOpeningTitles = true;
+        if (recoveryMode) { }
+            //skipOpeningTitles = true;
     }
 
     private void Start()
     {
-        if(recoveryMode)
-            skipOpeningTitles = true;
-
         HostManager.Get.host.ReloadHost = recoveryMode;
         if (recoveryMode)
             SaveManager.RestoreData();

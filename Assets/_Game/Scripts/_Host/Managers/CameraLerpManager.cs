@@ -1,4 +1,3 @@
-using NaughtyAttributes;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,10 +5,11 @@ using UnityEngine;
 public class CameraLerpManager : SingletonMonoBehaviour<CameraLerpManager>
 {
     private Camera cam;
+    public Animator zoomAnim;
 
-    public enum CameraPosition { Default };
+    public enum CameraPosition { Audience, Meter, MeterNoStrap, Final };
     public Transform[] angles;
-    public float defaultFieldOfView = 60f;
+    public float defaultFieldOfView = 50f;
     public float defaultTransitionDuration = 2f;
 
     private float elapsedTime;
@@ -27,6 +27,7 @@ public class CameraLerpManager : SingletonMonoBehaviour<CameraLerpManager>
     private void Start()
     {
         cam = GetComponent<Camera>();
+        zoomAnim.enabled = false;
     }
 
     #endregion
@@ -54,12 +55,12 @@ public class CameraLerpManager : SingletonMonoBehaviour<CameraLerpManager>
 
     public void ZoomToPosition(CameraPosition target, float fov)
     {
-        ZoomToPosition(target, defaultTransitionDuration, fov);
+        ZoomToPosition(target, fov, defaultTransitionDuration);
     }
 
     public void ZoomToPosition(CameraPosition target)
     {
-        ZoomToPosition(target, defaultTransitionDuration, defaultFieldOfView);
+        ZoomToPosition(target, defaultFieldOfView, defaultTransitionDuration);
     }
 
     #endregion

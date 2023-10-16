@@ -3,34 +3,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
-using UnityEditor;
 using Newtonsoft.Json;
 using NaughtyAttributes;
 using System.Linq;
-using TMPro;
 
-public class GameplayPennys : MonoBehaviour
+public class GameplayPennys : SingletonMonoBehaviour<GameplayPennys>
 {
-    #region Init
-
-    public static GameplayPennys GetPennys { get; private set; }
-    private void Awake()
-    {
-        if (GetPennys != null && GetPennys != this)
-            Destroy(this);
-        else
-            GetPennys = this;
-    }
-
-    #endregion
-
     private PlayerShell playerList;
     private MedalTableObject medalList;
-    private List<LeaderboardObject> leaderboardList;
     private readonly string path = @"D:\Unity Projects\HerokuPennyData\PennyStorage";
 
     public int authorPennys;
-    [Range (1, 10)] public int multiplyFactor;
+    [Range (1, 50)] public int multiplyFactor;
     public string gameName;
 
 
@@ -53,14 +37,9 @@ public class GameplayPennys : MonoBehaviour
         medalList = JsonConvert.DeserializeObject<MedalTableObject>(File.ReadAllText(path + $@"\{gameName}.txt"));
     }
 
-    private void LoadLeaderboardJSON()
-    {
-        leaderboardList = JsonConvert.DeserializeObject<List<LeaderboardObject>>(File.ReadAllText(path + $@"\{gameName}Leaderboard.txt"));
-    }
-
     private void AwardPennys()
     {
-        List<PlayerObject> list = PlayerManager.Get.players.OrderByDescending(p => p.totalCorrect).ThenBy(p => p.twitchName).Where(x => x.points > 0).ToList();
+        List<PlayerObject> list = PlayerManager.Get.players.OrderByDescending(p => p.totalCorrect).ThenBy(p => p.twitchName).Where(x => x.totalCorrect > 0).ToList();
         PlayerPennyData ppd;
 
         LoadJSON();
@@ -90,18 +69,12 @@ public class GameplayPennys : MonoBehaviour
 
     private void AwardMedals()
     {
-        List<PlayerObject> topTwo = PlayerManager.Get.players.Where(x => !x.eliminated).OrderByDescending(x => x.points).ToList();
+        PlayerObject winner = PlayerManager.Get.players.FirstOrDefault(x => !x.eliminated);
+        if (winner == null)
+            return;
+
         LoadMedalJSON();
-
-        if(topTwo.Count == 2)
-        {
-            medalList.goldMedallists.Add(topTwo[0].twitchName.ToLowerInvariant());
-            medalList.silverMedallists.Add(topTwo[1].twitchName.ToLowerInvariant());
-        }
-
-        List<PlayerObject> lobbyOrdered = PlayerManager.Get.players.Where(x => x.eliminated).OrderByDescending(x => x.totalCorrect).ToList();
-        foreach(PlayerObject player in lobbyOrdered.Where(x => x.totalCorrect == lobbyOrdered[0].totalCorrect))
-            medalList.lobbyMedallists.Add(player.twitchName.ToLowerInvariant());
+        medalList.goldMedallists.Add(winner.twitchName.ToLowerInvariant());
     }
 
     private void CreateNewPlayer(PlayerObject p)
@@ -137,7 +110,6 @@ public class GameplayPennys : MonoBehaviour
 
         if (!string.IsNullOrEmpty(gameName))
         {
-            medalPath = path + $@"\{gameName}Test.txt";
             newDataContent = JsonConvert.SerializeObject(medalList);
             File.WriteAllText(medalPath, newDataContent);
         }

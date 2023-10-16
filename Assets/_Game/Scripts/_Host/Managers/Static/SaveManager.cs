@@ -1,5 +1,4 @@
 using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -23,7 +22,7 @@ public static class SaveManager
 
         GameplayDataSerializable gpd = new GameplayDataSerializable()
         {
-            nextQuestionNumber = GameplayManager.nextQuestionIndex,
+            nextQuestionNumber = GameplayManager.nextMainQuestionIndex,
             currentRound = GameplayManager.Get.currentRound,
             roundsPlayed = GameplayManager.Get.roundsPlayed
         };
@@ -82,7 +81,7 @@ public static class SaveManager
     {
         if(gameplayData != null)
         {
-            GameplayManager.nextQuestionIndex = gameplayData.nextQuestionNumber;
+            GameplayManager.nextMainQuestionIndex = gameplayData.nextQuestionNumber;
             GameplayManager.Get.currentRound = gameplayData.currentRound;
             GameplayManager.Get.roundsPlayed = gameplayData.roundsPlayed;
         }

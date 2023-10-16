@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System.Reflection;
 using UnityEngine;
 
 public class AudioManager : SingletonMonoBehaviour<AudioManager>
@@ -11,10 +10,33 @@ public class AudioManager : SingletonMonoBehaviour<AudioManager>
 
     private bool playedUnique;
 
-    public enum OneShotClip { Impact, PodiumAnim, ClockTick, PlayerAnswer, WrongInFinal, ClockArm, Rotation, QStartAndEnd, PointTick };
+    private int constantTypewriter = -1;
+
+    public enum OneShotClip
+    {
+        Titles,
+        ShortSting,
+        LongSting,
+        Credits,
+        AnswerReceivedAndLobbyEntry,
+        ResetMeter,
+        TimeUp,
+        ClockTick,
+        Whoosh,
+        Elimination,
+
+        Type1,
+        Type2,
+        Type3
+    };
     public AudioClip[] stings;
 
-    public enum LoopClip { Titles, GameplayLoop, WinTheme, Credits };
+    public enum LoopClip
+    {
+        Underscore,
+        Meter
+    };
+
     public AudioClip[] loops;
 
     #region Public Methods
@@ -57,6 +79,16 @@ public class AudioManager : SingletonMonoBehaviour<AudioManager>
     public void Fade()
     {
         StartCoroutine(FadeOutLoop());
+    }
+
+    public void PlayTypewriterFX()
+    {
+        constantTypewriter++;
+        if(constantTypewriter % 4 == 0)
+        {
+            int x = UnityEngine.Random.Range(0, 3);
+            Play(x == 0 ? OneShotClip.Type1 : x == 1 ? OneShotClip.Type2 : OneShotClip.Type3);
+        }
     }
 
     #endregion

@@ -7,6 +7,7 @@ public class ChevronManager : SingletonMonoBehaviour<ChevronManager>
 {
     public ChevronWall[] walls;
 
+    #region Public Functions
     public void SinglePulse(bool down)
     {
         foreach (ChevronWall wall in walls)
@@ -24,4 +25,43 @@ public class ChevronManager : SingletonMonoBehaviour<ChevronManager>
         foreach (ChevronWall wall in walls)
             wall.SetStatic(down);
     }
+    #endregion
+
+    #region Debug Buttons
+    [Button]
+    private void SinglePulseUp()
+    {
+        SinglePulse(false);
+    }
+
+    [Button]
+    private void SinglePulseDown()
+    {
+        SinglePulse(true);
+    }
+
+    [Button]
+    private void MultiPulseUp()
+    {
+        MultiPulse(false);
+    }
+
+    [Button]
+    private void MultiPulseDown()
+    {
+        MultiPulse(true);
+    }
+
+    [Button]
+    private void StaticUp()
+    {
+        StaticLights(false);
+    }
+
+    [Button]
+    private void StaticDown()
+    {
+        StaticLights(true);
+    }
+    #endregion
 }

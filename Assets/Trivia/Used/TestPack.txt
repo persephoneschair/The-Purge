@@ -1,0 +1,470 @@
+{
+  "author": "royal_flush",
+  "tiebreaker": {
+    "questionText": "How many monitors does Royal_Flu$h have?",
+    "answers": [
+      {
+        "answerText": "4",
+        "isCorrect": true
+      }
+    ]
+  },
+  "mainGame": [
+    {
+      "questionText": "In chess, which piece moves first?",
+      "answers": [
+        {
+          "answerText": "White",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Black",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "What colour is Charmander?",
+      "answers": [
+        {
+          "answerText": "Red",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Blue",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Blue + Yellow = ?",
+      "answers": [
+        {
+          "answerText": "Green",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Purple",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which side is the monarch's head on?",
+      "answers": [
+        {
+          "answerText": "Heads",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Tails",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Nickname for a cat?",
+      "answers": [
+        {
+          "answerText": "Puss",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Boots",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "In chess, which piece moves first?",
+      "answers": [
+        {
+          "answerText": "White",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Black",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Answer #3",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "What colour is Charmander?",
+      "answers": [
+        {
+          "answerText": "Red",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Blue",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Answer #3",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Blue + Yellow = ?",
+      "answers": [
+        {
+          "answerText": "Green",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Purple",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Answer #3",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which side is the monarch's head on?",
+      "answers": [
+        {
+          "answerText": "Heads",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Tails",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Answer #3",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Nickname for a cat?",
+      "answers": [
+        {
+          "answerText": "Puss",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Boots",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Answer #3",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "In chess, which piece moves first?",
+      "answers": [
+        {
+          "answerText": "White",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Black",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Answer #3",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Answer #4",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "What colour is Charmander?",
+      "answers": [
+        {
+          "answerText": "Red",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Blue",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Answer #3",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Answer #4",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Blue + Yellow = ?",
+      "answers": [
+        {
+          "answerText": "Green",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Purple",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Answer #3",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Answer #4",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which side is the monarch's head on?",
+      "answers": [
+        {
+          "answerText": "Heads",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Tails",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Answer #3",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Answer #4",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Nickname for a cat?",
+      "answers": [
+        {
+          "answerText": "Puss",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Boots",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Answer #3",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Answer #4",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "In chess, which piece moves first?",
+      "answers": [
+        {
+          "answerText": "White",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Black",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Answer #3",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Answer #4",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Answer #5",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "What colour is Charmander?",
+      "answers": [
+        {
+          "answerText": "Red",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Blue",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Answer #3",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Answer #4",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Answer #5",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Blue + Yellow = ?",
+      "answers": [
+        {
+          "answerText": "Green",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Purple",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Answer #3",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Answer #4",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Answer #5",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which side is the monarch's head on?",
+      "answers": [
+        {
+          "answerText": "Heads",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Tails",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Answer #3",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Answer #4",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Answer #5",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Nickname for a cat?",
+      "answers": [
+        {
+          "answerText": "Puss",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Boots",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Answer #3",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Answer #4",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Answer #5",
+          "isCorrect": false
+        }
+      ]
+    }
+  ],
+  "purgeGame": [
+    {
+      "questionText": "In chess, which piece moves first?",
+      "answers": [
+        {
+          "answerText": "White,White Pieces",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "What colour is Charmander?",
+      "answers": [
+        {
+          "answerText": "Red,Orange,Fiery",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "Blue + Yellow = ?",
+      "answers": [
+        {
+          "answerText": "Green,Green-ish",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "Which side is the monarch's head on?",
+      "answers": [
+        {
+          "answerText": "Heads,The Top,Head",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "Nickname for a cat?",
+      "answers": [
+        {
+          "answerText": "Puss,Pussycat,Mog",
+          "isCorrect": true
+        }
+      ]
+    }
+  ],
+  "finalGame": [
+    {
+      "questionText": "In chess|which piece moves first?",
+      "answers": [
+        {
+          "answerText": "White,White Pieces",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "What colour is|Charmander?",
+      "answers": [
+        {
+          "answerText": "Red,Orange,Fiery",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "Blue +|Yellow = ?",
+      "answers": [
+        {
+          "answerText": "Green,Green-ish",
+          "isCorrect": true
+        }
+      ]
+    }
+  ]
+}

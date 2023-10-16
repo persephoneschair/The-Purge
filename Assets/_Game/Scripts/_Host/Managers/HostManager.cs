@@ -131,6 +131,9 @@ public class HostManager : SingletonMonoBehaviour<HostManager>
         switch (eventType)
         {
             case EventLibrary.ClientEventType.StoredValidation:
+                if (Operator.Get.fastValidation || Operator.Get.recoveryMode)
+                    return;
+
                 string[] str = data.Split('|').ToArray();
                 TwitchManager.Get.testUsername = str[0];
                 TwitchManager.Get.testMessage = str[1];
@@ -139,36 +142,26 @@ public class HostManager : SingletonMonoBehaviour<HostManager>
                 TwitchManager.Get.testMessage = "";
                 break;
 
+            //Tiebreaker
             case EventLibrary.ClientEventType.NumericalQuestion:
                 //This will have an array length of [1]
                 p.HandlePlayerScoring(data.Split('|'));
                 SendPayloadToClient(p, EventLibrary.HostEventType.Information, "Answer received");
                 break;
 
+            //Purge & Final
             case EventLibrary.ClientEventType.SimpleQuestion:
                 //This will have an array length of [1]
                 p.HandlePlayerScoring(data.Split('|'));
                 SendPayloadToClient(p, EventLibrary.HostEventType.Information, "Answer received");
                 break;
 
+            //Main game
             case EventLibrary.ClientEventType.MultipleChoiceQuestion:
                 //This will have an array length of [1]
                 p.HandlePlayerScoring(data.Split('|'));
                 SendPayloadToClient(p, EventLibrary.HostEventType.Information, "Answer received");
                 break;
-
-            case EventLibrary.ClientEventType.MultiSelectQuestion:
-                //This will have a variable array length
-                p.HandlePlayerScoring(data.Split('|'));
-                SendPayloadToClient(p, EventLibrary.HostEventType.Information, "Answer received");
-                break;
-
-            case EventLibrary.ClientEventType.DangerZoneQuestion:
-                //This will have an array length of [1] or [2]
-                p.HandlePlayerScoring(data.Split('|'));
-                SendPayloadToClient(p, EventLibrary.HostEventType.Information, "Answer received");
-                break;
-
 
             default:
                 break;
@@ -182,6 +175,19 @@ public class HostManager : SingletonMonoBehaviour<HostManager>
     public PlayerObject GetPlayerFromEvent(EventMessage e)
     {
         return PlayerManager.Get.players.FirstOrDefault(x => x.playerClientRef == e.Player);
+    }
+
+    public string GetSpacedRoomCode()
+    {
+        string spacedRoomCode = "";
+        for (int i = 0; i < host.RoomCode.Length; i++)
+        {
+            spacedRoomCode += host.RoomCode[i].ToString();
+            if (i < host.RoomCode.Length - 1)
+                spacedRoomCode += " ";
+        }
+
+        return spacedRoomCode;
     }
 
     #endregion

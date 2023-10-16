@@ -19,13 +19,19 @@ public class InstructionsManager : SingletonMonoBehaviour<InstructionsManager>
     [Button]
     public void OnShowInstructions()
     {
+        AudioManager.Get.Play(AudioManager.OneShotClip.Whoosh);
         instructionsAnim.SetTrigger("toggle");
-        instructionsMesh.text = instructions[(int)GameplayManager.Get.currentRound].Replace("[###]", Extensions.NumberToWords(QuestionManager.GetRoundQCount()));
+        string instructs = instructionsMesh.text;
+        instructionsMesh.text = instructs
+            .Replace("[MAIN]", Extensions.NumberToWords(QuestionManager.currentPack.mainGame.Count))
+            .Replace("[PURGE]", Extensions.NumberToWords(QuestionManager.currentPack.purgeGame.Count))
+            .Replace("[REMAIN]", Extensions.NumberToWords(QuestionManager.currentPack.finalGame.Count + 1));
     }
 
     [Button]
     public void OnHideInstructions()
     {
+        AudioManager.Get.Play(AudioManager.OneShotClip.Whoosh);
         instructionsAnim.SetTrigger("toggle");
     }
 }

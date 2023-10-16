@@ -12,10 +12,7 @@ namespace ATB
 #if UNITY_EDITOR
         private void Awake()
         {
-            if (!Application.isPlaying)
-            {
-                EditorApplication.update += Update;
-            }
+            EditorApplication.update += Update;
         }
 
         private void Update()

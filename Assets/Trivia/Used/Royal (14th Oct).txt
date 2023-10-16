@@ -1,0 +1,400 @@
+{
+  "author": "royal_flush",
+  "tiebreaker": {
+    "questionText": "When its West End production closed in 2002, for how many performances had Starlight Express run?",
+    "answers": [
+      {
+        "answerText": "7409",
+        "isCorrect": true
+      }
+    ]
+  },
+  "mainGame": [
+    {
+      "questionText": "This is purely for testing purposes, but if you'd like 25 free Pennys, click the button saying 'I'd like 25 Pennys'",
+      "answers": [
+        {
+          "answerText": "I'd like 25 Pennys",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "What is the name of the daughter in The Addams Family?",
+      "answers": [
+        {
+          "answerText": "Wednesday",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Friday",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "The song Maria featured in Bernstein's West Side Story, a modern re-telling of which Shakespearian tragedy?",
+      "answers": [
+        {
+          "answerText": "Rome & Juliet",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Hamlet",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Antony & Cleopatra",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "According to the adage, which of these is it NOT traditional for a bride to wear at her wedding?",
+      "answers": [
+        {
+          "answerText": "Something Gifted",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Something Old",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Something Borrowed",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Something Blue",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Dizzy Gillespie was a jazz musician, famous for playing which instrument?",
+      "answers": [
+        {
+          "answerText": "Trumpet",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Piano",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "What value is equal to the adjacent side of a triangle over the hypotenuse?",
+      "answers": [
+        {
+          "answerText": "Cosine",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Sine",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Tangent",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which of these British sweet treats is usually coldest?",
+      "answers": [
+        {
+          "answerText": "Twister",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Twirl",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Spotted Dick",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "The first episode of The Simpsons aired on December 17th, 1989. What was the title?",
+      "answers": [
+        {
+          "answerText": "Simpsons Roasting on an Open Fire",
+          "isCorrect": true
+        },
+        {
+          "answerText": "A Merry Simpsons Christmas",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Merry Christmas, Homer Simpson",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Jack Ruby shot and killed the assassin of which US President?",
+      "answers": [
+        {
+          "answerText": "John F. Kennedy",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Abraham Lincoln",
+          "isCorrect": false
+        },
+        {
+          "answerText": "William McKinley",
+          "isCorrect": false
+        },
+        {
+          "answerText": "James A. Garfield",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "What word goes ahead of man o' war to give the name of a marine animal?",
+      "answers": [
+        {
+          "answerText": "Portuguese",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Spanish",
+          "isCorrect": false
+        },
+        {
+          "answerText": "French",
+          "isCorrect": false
+        },
+        {
+          "answerText": "German",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "In Animal Farm, what type of animal is Bluebell?",
+      "answers": [
+        {
+          "answerText": "Dog",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Cat",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Pig",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Horse",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Cow",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "What was the name of the Seventh Doctor's assistant from 1987-1989 in the TV show Doctor Who?",
+      "answers": [
+        {
+          "answerText": "Ace",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Jack",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Queen",
+          "isCorrect": false
+        },
+        {
+          "answerText": "King",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which is the only King in a standard deck of playing cards to not carry a sword?",
+      "answers": [
+        {
+          "answerText": "Diamonds",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Clubs",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Spades",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Hearts",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which of these Russian composers famously died on the same day as Joseph Stalin?",
+      "answers": [
+        {
+          "answerText": "Prokofiev",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Tchaikovsky",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Shostakovich",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Rachmaninoff",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Nickname for a cat?",
+      "answers": [
+        {
+          "answerText": "Puss",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Boots",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Answer #3",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Answer #4",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Who was the sitting US President during the First World War?",
+      "answers": [
+        {
+          "answerText": "Woodrow Wilson",
+          "isCorrect": true
+        },
+        {
+          "answerText": "William Howard Taft",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Warren G. Harding",
+          "isCorrect": false
+        }
+      ]
+    }
+  ],
+  "purgeGame": [
+    {
+      "questionText": "Which comedian and personality hosted the first 13 series of the BBC comedy panel show QI?",
+      "answers": [
+        {
+          "answerText": "Stephen Fry,Fry",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "In golf, a shot three under par is also known as which large bird?",
+      "answers": [
+        {
+          "answerText": "Albatross",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "Who wrote and published the novella The Metamorphosis?",
+      "answers": [
+        {
+          "answerText": "Franz Kafka,Kafka",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "In which US state is Yale university?",
+      "answers": [
+        {
+          "answerText": "Connecticut",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "What was the surname of the German tax collector who originally bred the dog breed 'Dobermann', a name which often follows the breed itself?",
+      "answers": [
+        {
+          "answerText": "Pinscher",
+          "isCorrect": true
+        }
+      ]
+    }
+  ],
+  "finalGame": [
+    {
+      "questionText": "Wolfgang Amadeus Mozart|was born in 1756, the son of which other Mozart?",
+      "answers": [
+        {
+          "answerText": "Leopold,Leopold Mozart",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "According to Greek history, the story of the Sword|of Damocles arose when the courtier Damocles was granted the opportunity to switch places with which King for one day?",
+      "answers": [
+        {
+          "answerText": "Dionysius II,Dionysius",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "What name does Bridget Jones|give to her baby in the third film of the series?",
+      "answers": [
+        {
+          "answerText": "William",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "Principally known for his contributions to the design of alternating current|Nikola Tesla was born in which modern day country?",
+      "answers": [
+        {
+          "answerText": "Croatia",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "With a total area of 2.7 million square kilometres|what is the largest landlocked country in the world?",
+      "answers": [
+        {
+          "answerText": "Kazakhstan",
+          "isCorrect": true
+        }
+      ]
+    }
+  ]
+}

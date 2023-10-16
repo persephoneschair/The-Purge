@@ -2,6 +2,7 @@ using NaughtyAttributes;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using UnityEngine;
 
 public class PlayerManager : SingletonMonoBehaviour<PlayerManager>
@@ -12,6 +13,10 @@ public class PlayerManager : SingletonMonoBehaviour<PlayerManager>
     [Header("Controls")]
     public bool pullingData = true;
     [Range(0,39)] public int playerIndex;
+
+    public Animator countStrapAnim;
+    public TextMeshProUGUI countStrapMesh;
+    public float playerCountDisplayTime = 5f;
 
 
     private PlayerObject _focusPlayer;
@@ -108,5 +113,30 @@ public class PlayerManager : SingletonMonoBehaviour<PlayerManager>
         FocusPlayer.submission = submission;
         FocusPlayer.submissionTime = submissionTime;
         pullingData = true;
+    }
+
+    public List<PlayerObject> GetOrderedNonEliminatedPlayers()
+    {
+        return players.Where(x => !x.eliminated)
+            .OrderByDescending(x => x.mainGameCorrect)
+            .ThenBy(x => x.distanceFromTiebreak).ToList();
+    }
+
+    [Button]
+    public void DisplayPlayerCount()
+    {
+        UpdatePlayerCount();
+        TogglePlayerCountStrap();
+        Invoke("TogglePlayerCountStrap", playerCountDisplayTime + 2f);
+    }
+
+    public void UpdatePlayerCount()
+    {
+        countStrapMesh.text = $"Live: {players.Count(x => !x.eliminated)}\n<color=red>Purged: {players.Count(x => x.eliminated)}";
+    }
+
+    public void TogglePlayerCountStrap()
+    {
+        countStrapAnim.SetTrigger("toggle");
     }
 }
