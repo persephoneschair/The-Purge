@@ -27,7 +27,10 @@ public class AudioManager : SingletonMonoBehaviour<AudioManager>
 
         Type1,
         Type2,
-        Type3
+        Type3,
+
+        Klaxon,
+        NoElim
     };
     public AudioClip[] stings;
 

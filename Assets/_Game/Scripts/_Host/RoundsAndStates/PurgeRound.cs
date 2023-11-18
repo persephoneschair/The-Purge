@@ -116,7 +116,11 @@ public class PurgeRound : RoundBase
 
     public override void ResetForNewQuestion()
     {
-        AudioManager.Get.Play(AudioManager.OneShotClip.Elimination);
+        int elimCount = PlayerManager.Get.players.Where(x => x.inPurge && !x.wasCorrect).Count();
+        if(elimCount > 0)
+            AudioManager.Get.Play(AudioManager.OneShotClip.Elimination);
+        else
+            AudioManager.Get.Play(AudioManager.OneShotClip.NoElim);
         foreach (PlayerObject po in PlayerManager.Get.players.Where(x => x.inPurge && !x.wasCorrect))
             po.EliminatePlayer();
 

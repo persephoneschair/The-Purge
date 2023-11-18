@@ -20,6 +20,10 @@ public class Operator : SingletonMonoBehaviour<Operator>
 
     [Header("Quesion Data")]
     public TextAsset questionPack;
+    public TextAsset legacyQuestionPack;
+    public string legacyAuthorName;
+
+    [TextArea(5, 10)] public string exportedLegacyPack;
 
     public override void Awake()
     {
@@ -36,6 +40,8 @@ public class Operator : SingletonMonoBehaviour<Operator>
 
         if (questionPack != null)
             QuestionManager.DecompilePack(questionPack);
+        else if (legacyQuestionPack != null)
+            QuestionManager.ConvertPackFromLegacyTemplate(legacyQuestionPack, legacyAuthorName);
         else
             DebugLog.Print("NO QUESTION PACK LOADED; PLEASE ASSIGN ONE AND RESTART THE BUILD", DebugLog.StyleOption.Bold, DebugLog.ColorOption.Red);
 

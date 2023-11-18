@@ -1,0 +1,246 @@
+{
+  "standardQuestions": [
+    {
+      "question": "Which of these numbers is a prime number?",
+      "correctAnswer": "499",
+      "incorrectAnswers": [
+        "999"
+      ]
+    },
+    {
+      "question": "On the dating app Tinder, in which direction should a user swipe to 'like' a person's profile?",
+      "correctAnswer": "Right",
+      "incorrectAnswers": [
+        "Left"
+      ]
+    },
+    {
+      "question": "Which of these are there more of?",
+      "correctAnswer": "Ounces in a pound",
+      "incorrectAnswers": [
+        "Pounds in a stone"
+      ]
+    },
+    {
+      "question": "Which of these bands won their series of 'The X Factor'?",
+      "correctAnswer": "Little Mix",
+      "incorrectAnswers": [
+        "One Direction"
+      ]
+    },
+    {
+      "question": "Which of these countries has won the Men's ICC Cricket World Cup?",
+      "correctAnswer": "Australia",
+      "incorrectAnswers": [
+        "New Zealand"
+      ]
+    },
+    {
+      "question": "The Puerto Rican rapper and singer born Benito Antonio Martínez Ocasio is better known by what stage name?",
+      "correctAnswer": "Bad Bunny",
+      "incorrectAnswers": [
+        "Dreadful Doggy",
+        "Miserable Moggy"
+      ]
+    },
+    {
+      "question": "Which animals form the chief diet of the polar bear?",
+      "correctAnswer": "Seals",
+      "incorrectAnswers": [
+        "Walruses",
+        "Whales"
+      ]
+    },
+    {
+      "question": "In 2012, Justin Timberlake married which actress?",
+      "correctAnswer": "Jessica Biel",
+      "incorrectAnswers": [
+        "Jessica Alba",
+        "Jessica Chastain"
+      ]
+    },
+    {
+      "question": "Which of these countries shares land borders with three others, as opposed to just two?",
+      "correctAnswer": "Luxembourg",
+      "incorrectAnswers": [
+        "Liechtenstein",
+        "Andorra"
+      ]
+    },
+    {
+      "question": "Who was President of the USA 100 years ago today?",
+      "correctAnswer": "Calvin Coolidge",
+      "incorrectAnswers": [
+        "Herbert Hoover",
+        "Woodrow Wilson"
+      ]
+    },
+    {
+      "question": "In the 1985 film 'Back to the Future', what is the name of Doc Brown's dog?",
+      "correctAnswer": "Einstein",
+      "incorrectAnswers": [
+        "Newton",
+        "Galileo",
+        "Edison"
+      ]
+    },
+    {
+      "question": "'The Sistine Madonna' and 'The School of Athens' are works by which Renaissance painter? ",
+      "correctAnswer": "Raphael",
+      "incorrectAnswers": [
+        "Donatello",
+        "Leonardo",
+        "Michelangelo"
+      ]
+    },
+    {
+      "question": "Grand Minimus is a character in which video game franchise?",
+      "correctAnswer": "Rayman",
+      "incorrectAnswers": [
+        "Kirby",
+        "Banjo-Kazooie",
+        "Ratchet & Clank"
+      ]
+    },
+    {
+      "question": "The coffee variety mocha derives its name from a port city in what country?",
+      "correctAnswer": "Yemen",
+      "incorrectAnswers": [
+        "Oman",
+        "Iraq",
+        "Bahrain"
+      ]
+    },
+    {
+      "question": "Tm is the symbol for what chemical element?",
+      "correctAnswer": "Thulium",
+      "incorrectAnswers": [
+        "Tellurium",
+        "Thallium",
+        "Thorium"
+      ]
+    },
+    {
+      "question": "Which of these is a city in South Africa's Northern Cape province, famed for its diamond mining?",
+      "correctAnswer": "Kimberley",
+      "incorrectAnswers": [
+        "Cheryl",
+        "Nadine",
+        "Nicola",
+        "Sarah"
+      ]
+    },
+    {
+      "question": "Which of these fathers from a TV cartoon series has the most sons?",
+      "correctAnswer": "Peter Griffin",
+      "incorrectAnswers": [
+        "Homer Simpson",
+        "Bob Belcher",
+        "Hank Hill",
+        "Stan Smith"
+      ]
+    },
+    {
+      "question": "Which French fashion designer introduced the A-Line skirt in their 1955 collection?",
+      "correctAnswer": "Christian Dior",
+      "incorrectAnswers": [
+        "Coco Chanel",
+        "Pierre Cardin",
+        "Yves Saint Laurent",
+        "Christian Lacroix"
+      ]
+    },
+    {
+      "question": "Which of these Japanese logic puzzles does NOT involve the use of numbers?",
+      "correctAnswer": "Masyu",
+      "incorrectAnswers": [
+        "Sudoku",
+        "Kakuro",
+        "Hitori",
+        "Nurikabe"
+      ]
+    },
+    {
+      "question": "At which battle did Horatio Nelson lose his right arm?",
+      "correctAnswer": "Battle of Santa Cruz de Tenerife",
+      "incorrectAnswers": [
+        "Battle of Cape St Vincent",
+        "Battle of the Nile",
+        "Battle of Copenhagen",
+        "Battle of Trafalgar"
+      ]
+    }
+  ],
+  "tiebreakerQuestion": [
+    {
+      "question": "Since the first event was held in 1991, how many goals have been scored across all editions of the Women's FIFA World Cup?",
+      "answer": "1081"
+    }
+  ],
+  "purgeQuestions": [
+    {
+      "question": "Nick Carraway and Daisy Buchanan are characters in which F. Scott Fitzgerald novel?",
+      "answer": [
+        "The Great Gatsby",
+        "Great Gatsby"
+      ]
+    },
+    {
+      "question": "In an alphabetical list of signs of the western Zodiac, which one comes last?",
+      "answer": [
+        "Virgo"
+      ]
+    },
+    {
+      "question": "Brendan Fraser won the Academy Award for Best Actor for his role in which 2022 film?",
+      "answer": [
+        "The Whale",
+        "Whale"
+      ]
+    },
+    {
+      "question": "Chile and which other South American country do NOT share a border with Brazil?",
+      "answer": [
+        "Ecuador"
+      ]
+    },
+    {
+      "question": "What English term corresponds to 'virelangue' in French and 'zungenbrecher' in German?",
+      "answer": [
+        "Tongue-twister",
+        "tongue twister"
+      ]
+    }
+  ],
+  "finalQuestions": [
+    {
+      "questionPart1": "Which English Premier League football team",
+      "questionPart2": "shares its name with the daughter of Bill and Hillary Clinton?",
+      "answer": [
+        "Chelsea"
+      ]
+    },
+    {
+      "questionPart1": "Which US painter",
+      "questionPart2": ", along with an expletive, forms the title of a 2019 album by Lana Del Rey?",
+      "answer": [
+        "Norman Rockwell",
+        "Rockwell"
+      ]
+    },
+    {
+      "questionPart1": "Which Greek goddess",
+      "questionPart2": "gives her name to a flightless bird also known as the South American ostrich?",
+      "answer": [
+        "Rhea"
+      ]
+    },
+    {
+      "questionPart1": "What is the only capital city",
+      "questionPart2": "whose name appears in the title of a Best Picture Oscar-winning film?",
+      "answer": [
+        "Paris"
+      ]
+    }
+  ]
+}

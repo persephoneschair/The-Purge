@@ -849,12 +849,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d85e3651af7290841ae573c014eec2e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  testMode: 1
-  skipOpeningTitles: 1
+  testMode: 0
+  skipOpeningTitles: 0
   fastValidation: 0
   recoveryMode: 0
   playerLimit: 75
-  questionPack: {fileID: 4900000, guid: 038d4bb11d4ffa8448128cbcf6b34db2, type: 3}
+  questionPack: {fileID: 4900000, guid: 213fcc4fb4cb58c478f724d11406ea5f, type: 3}
+  legacyQuestionPack: {fileID: 0}
+  legacyAuthorName: 
+  exportedLegacyPack: 
 --- !u!1 &71125279
 GameObject:
   m_ObjectHideFlags: 0
@@ -3009,7 +3012,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 52.4
+  m_fontSize: 52.35
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -42717,7 +42720,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e2a8a39e200f05e46bd08fc5e6cf9c82, type: 2}
+  - {fileID: 2100000, guid: 258de70242a4f1c40ada70f47aadee6e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -46565,7 +46568,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 68.85
+  m_fontSize: 68.75
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -49240,6 +49243,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 31c60a9c19eb6ee42ba6b1e537b1f9be, type: 3}
   - {fileID: 8300000, guid: 6e9dbc9c887548740a35f245fee55374, type: 3}
   - {fileID: 8300000, guid: cce938c6ae778924db0417d4924577af, type: 3}
+  - {fileID: 8300000, guid: 5b1008ba6efbfed439f37c1c27840e0a, type: 3}
+  - {fileID: 8300000, guid: 64d327f73460c904ca3d7fbae768933d, type: 3}
   loops:
   - {fileID: 8300000, guid: a47e54d387d914f4daa01d467a723abd, type: 3}
   - {fileID: 8300000, guid: aa1090eced9bd5f41a503c1898fcfb15, type: 3}
@@ -49936,7 +49941,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 56.5
+  m_fontSize: 58.2
   m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -52171,7 +52176,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 38.4
+  m_fontSize: 38.35
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1

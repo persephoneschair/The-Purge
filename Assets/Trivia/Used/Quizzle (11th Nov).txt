@@ -1,0 +1,479 @@
+{
+  "author": "quizzle83",
+  "tiebreaker": {
+    "questionText": "Since the first event was held in 1991, how many goals have been scored across all editions of the Women's FIFA World Cup?",
+    "answers": [
+      {
+        "answerText": "1081",
+        "isCorrect": true
+      }
+    ]
+  },
+  "mainGame": [
+    {
+      "questionText": "Which of these numbers is a prime number?",
+      "answers": [
+        {
+          "answerText": "499",
+          "isCorrect": true
+        },
+        {
+          "answerText": "999",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "On the dating app Tinder, in which direction should a user swipe to 'like' a person's profile?",
+      "answers": [
+        {
+          "answerText": "Right",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Left",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which of these are there more of?",
+      "answers": [
+        {
+          "answerText": "Ounces in a pound",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Pounds in a stone",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which of these bands won their series of 'The X Factor'?",
+      "answers": [
+        {
+          "answerText": "Little Mix",
+          "isCorrect": true
+        },
+        {
+          "answerText": "One Direction",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which of these countries has won the Men's ICC Cricket World Cup?",
+      "answers": [
+        {
+          "answerText": "Australia",
+          "isCorrect": true
+        },
+        {
+          "answerText": "New Zealand",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "The Puerto Rican rapper and singer born Benito Antonio Martínez Ocasio is better known by what stage name?",
+      "answers": [
+        {
+          "answerText": "Bad Bunny",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Dreadful Doggy",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Miserable Moggy",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which animals form the chief diet of the polar bear?",
+      "answers": [
+        {
+          "answerText": "Seals",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Walruses",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Whales",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "In 2012, Justin Timberlake married which actress?",
+      "answers": [
+        {
+          "answerText": "Jessica Biel",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Jessica Alba",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Jessica Chastain",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which of these countries shares land borders with three others, as opposed to just two?",
+      "answers": [
+        {
+          "answerText": "Luxembourg",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Liechtenstein",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Andorra",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Who was President of the USA 100 years ago today?",
+      "answers": [
+        {
+          "answerText": "Calvin Coolidge",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Herbert Hoover",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Woodrow Wilson",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "In the 1985 film 'Back to the Future', what is the name of Doc Brown's dog?",
+      "answers": [
+        {
+          "answerText": "Einstein",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Newton",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Galileo",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Edison",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "'The Sistine Madonna' and 'The School of Athens' are works by which Renaissance painter? ",
+      "answers": [
+        {
+          "answerText": "Raphael",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Donatello",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Leonardo",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Michelangelo",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Grand Minimus is a character in which video game franchise?",
+      "answers": [
+        {
+          "answerText": "Rayman",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Kirby",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Banjo-Kazooie",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Ratchet & Clank",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "The coffee variety mocha derives its name from a port city in what country?",
+      "answers": [
+        {
+          "answerText": "Yemen",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Oman",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Iraq",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Bahrain",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Tm is the symbol for what chemical element?",
+      "answers": [
+        {
+          "answerText": "Thulium",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Tellurium",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Thallium",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Thorium",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which of these is a city in South Africa's Northern Cape province, famed for its diamond mining?",
+      "answers": [
+        {
+          "answerText": "Kimberley",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Cheryl",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Nadine",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Nicola",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Sarah",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which of these fathers from a TV cartoon series has the most sons?",
+      "answers": [
+        {
+          "answerText": "Peter Griffin",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Homer Simpson",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Bob Belcher",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Hank Hill",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Stan Smith",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which French fashion designer introduced the A-Line skirt in their 1955 collection?",
+      "answers": [
+        {
+          "answerText": "Christian Dior",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Coco Chanel",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Pierre Cardin",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Yves Saint Laurent",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Christian Lacroix",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which of these Japanese logic puzzles does NOT involve the use of numbers?",
+      "answers": [
+        {
+          "answerText": "Masyu",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Sudoku",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Kakuro",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Hitori",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Nurikabe",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "At which battle did Horatio Nelson lose his right arm?",
+      "answers": [
+        {
+          "answerText": "Battle of Santa Cruz de Tenerife",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Battle of Cape St Vincent",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Battle of the Nile",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Battle of Copenhagen",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Battle of Trafalgar",
+          "isCorrect": false
+        }
+      ]
+    }
+  ],
+  "purgeGame": [
+    {
+      "questionText": "Nick Carraway and Daisy Buchanan are characters in which F. Scott Fitzgerald novel?",
+      "answers": [
+        {
+          "answerText": "The Great Gatsby,Great Gatsby",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "In an alphabetical list of signs of the western Zodiac, which one comes last?",
+      "answers": [
+        {
+          "answerText": "Virgo",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "Brendan Fraser won the Academy Award for Best Actor for his role in which 2022 film?",
+      "answers": [
+        {
+          "answerText": "The Whale,Whale",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "Chile and which other South American country do NOT share a border with Brazil?",
+      "answers": [
+        {
+          "answerText": "Ecuador",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "What English term corresponds to 'virelangue' in French and 'zungenbrecher' in German?",
+      "answers": [
+        {
+          "answerText": "Tongue-twister,tongue twister",
+          "isCorrect": true
+        }
+      ]
+    }
+  ],
+  "finalGame": [
+    {
+      "questionText": "Which English Premier League football team|shares its name with the daughter of Bill and Hillary Clinton?",
+      "answers": [
+        {
+          "answerText": "Chelsea",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "Which US painter|, along with an expletive, forms the title of a 2019 album by Lana Del Rey?",
+      "answers": [
+        {
+          "answerText": "Norman Rockwell,Rockwell",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "Which Greek goddess|gives her name to a flightless bird also known as the South American ostrich?",
+      "answers": [
+        {
+          "answerText": "Rhea",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "What is the only capital city|whose name appears in the title of a Best Picture Oscar-winning film?",
+      "answers": [
+        {
+          "answerText": "Paris",
+          "isCorrect": true
+        }
+      ]
+    }
+  ]
+}
