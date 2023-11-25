@@ -849,9 +849,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d85e3651af7290841ae573c014eec2e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  testMode: 0
-  skipOpeningTitles: 0
-  fastValidation: 0
+  testMode: 1
+  skipOpeningTitles: 1
+  fastValidation: 1
   recoveryMode: 0
   playerLimit: 75
   questionPack: {fileID: 4900000, guid: 213fcc4fb4cb58c478f724d11406ea5f, type: 3}

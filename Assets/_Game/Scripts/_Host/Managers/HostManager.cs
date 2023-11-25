@@ -163,6 +163,37 @@ public class HostManager : SingletonMonoBehaviour<HostManager>
                 SendPayloadToClient(p, EventLibrary.HostEventType.Information, "Answer received");
                 break;
 
+            case EventLibrary.ClientEventType.PasteAlert:
+                //Silent alarm indicating some text has been pasted into an answer box
+                DebugLog.Print($"A PASTE ALERT WAS RAISED BY {p.playerName} ({p.twitchName}): {data}", DebugLog.StyleOption.Bold, DebugLog.ColorOption.Purple);
+
+                string currentQ = "";
+                switch (GameplayManager.Get.currentRound)
+                {
+                    case GameplayManager.Round.None:
+                    case GameplayManager.Round.MainRound:
+                        currentQ = "No live question";
+                        break;
+
+                    case GameplayManager.Round.Tiebreaker:
+                        if (GameplayManager.Get.rounds[0].currentQuestion != null)
+                            currentQ = GameplayManager.Get.rounds[0].currentQuestion.questionText;
+                        break;
+
+                    case GameplayManager.Round.PurgeRound:
+                        if (GameplayManager.Get.rounds[2].currentQuestion != null)
+                            currentQ = GameplayManager.Get.rounds[2].currentQuestion.questionText;
+                        break;
+
+                    case GameplayManager.Round.FinalRound:
+                        if (GameplayManager.Get.rounds[3].currentQuestion != null)
+                            currentQ = GameplayManager.Get.rounds[3].currentQuestion.questionText;
+                        break;
+                }
+                PasteAlertEvent.Log(p, data, currentQ);
+                EventLogger.PrintPasteLog();
+                break;
+
             default:
                 break;
         }
