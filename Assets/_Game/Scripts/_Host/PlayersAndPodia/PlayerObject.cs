@@ -89,7 +89,7 @@ public class PlayerObject
         PlayerManager.Get.players.Add(this);
         PlayerManager.Get.pendingPlayers.Remove(this);
         PlayerManager.Get.UpdatePlayerCount();
-        SaveManager.BackUpData();
+        //SaveManager.BackUpData();
         //LeaderboardManager.Get.PlayerHasJoined(this);
         //HostManager.GetHost.UpdateLeaderboards();
     }
@@ -213,7 +213,7 @@ public class PlayerObject
         totalCorrect++;
         if (GameplayManager.Get.currentRound == GameplayManager.Round.MainRound)
             mainGameCorrect++;
-        HostManager.Get.SendPayloadToClient(this, EventLibrary.HostEventType.UpdateScore, $"Correct: {totalCorrect}");
+        HostManager.Get.SendPayloadToClient(this, EventLibrary.HostEventType.UpdateScore, $"Correct: {mainGameCorrect}");
     }
 
     public void DebugAnswer(int tb)

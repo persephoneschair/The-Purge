@@ -12,9 +12,9 @@ public class GameplayManager : SingletonMonoBehaviour<GameplayManager>
     public RoundBase[] rounds;
 
     [Header("Question Data")]
-    public static int nextMainQuestionIndex = 0;
-    public static int nextPurgeQuestionIndex = 0;
-    public static int nextFinalQuestionIndex = 0;
+    public int nextMainQuestionIndex = 0;
+    public int nextPurgeQuestionIndex = 0;
+    public int nextFinalQuestionIndex = 0;
 
     public enum GameplayStage
     {
@@ -100,6 +100,7 @@ public class GameplayManager : SingletonMonoBehaviour<GameplayManager>
                 break;
 
             case GameplayStage.LoadQuestion:
+                SaveManager.BackUpData();
                 currentStage++;
                 rounds[(int)currentRound].LoadQuestion();
                 break;

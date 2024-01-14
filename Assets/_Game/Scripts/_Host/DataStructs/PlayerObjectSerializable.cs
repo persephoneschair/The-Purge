@@ -13,4 +13,15 @@ public class PlayerObjectSerializable
 
     public int points;
     public int totalCorrect;
+
+    public int mainGameCorrect;
+    public int distanceFromTiebreak;
+    public int purgesSurvived;
+
+    public string submission;
+    public float submissionTime;
+    public bool flagForCondone;
+    public bool wasCorrect;
+    public bool inPurge;
+    public bool inFinal;
 }

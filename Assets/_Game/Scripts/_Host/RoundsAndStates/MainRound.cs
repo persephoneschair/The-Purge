@@ -8,7 +8,7 @@ public class MainRound : RoundBase
     public override void LoadQuestion()
     {
         base.LoadQuestion();
-        currentQuestion = QuestionManager.currentPack.mainGame[GameplayManager.nextMainQuestionIndex];
+        currentQuestion = QuestionManager.currentPack.mainGame[GameplayManager.Get.nextMainQuestionIndex];
         for (int i = 0; i < currentQuestion.answers.Count; i++)
         {
             answerPrefabs.Add(Instantiate(answerPrefabToInstance, answerPrefabTarget).GetComponent<AnswerPrefab>());
@@ -21,7 +21,7 @@ public class MainRound : RoundBase
     {
         base.RunQuestion();
         StartCoroutine(RunQuestionLate());
-        DebugLog.Print($"QUESTION #{(GameplayManager.nextMainQuestionIndex + 1).ToString()} RESPONSES", DebugLog.StyleOption.Bold, DebugLog.ColorOption.Default);
+        DebugLog.Print($"QUESTION #{(GameplayManager.Get.nextMainQuestionIndex + 1).ToString()} RESPONSES", DebugLog.StyleOption.Bold, DebugLog.ColorOption.Default);
     }
 
     public override IEnumerator RunQuestionLate()
@@ -91,7 +91,7 @@ public class MainRound : RoundBase
     public override void ResetForNewQuestion()
     {
         base.ResetForNewQuestion();
-        GameplayManager.nextMainQuestionIndex++;
+        GameplayManager.Get.nextMainQuestionIndex++;
         CameraLerpManager.Get.ZoomToPosition(CameraLerpManager.CameraPosition.Audience, 50f);
         PurgeMeterManager.Get.ResetTheMeter();
 

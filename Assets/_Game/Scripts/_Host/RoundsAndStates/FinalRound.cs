@@ -161,7 +161,7 @@ public class FinalRound : RoundBase
         base.LoadQuestion();
         tickerMesh.text = $"{controller.playerName}, based on half a question, decide whether you would like to play or pass...";
         controller.podium.SetPodiumColor(PodiumBase.PodiumMode.Default);
-        currentQuestion = QuestionManager.currentPack.finalGame[GameplayManager.nextFinalQuestionIndex];
+        currentQuestion = QuestionManager.currentPack.finalGame[GameplayManager.Get.nextFinalQuestionIndex];
         answerPrefabs.Add(Instantiate(answerPrefabToInstance, answerPrefabTarget).GetComponent<AnswerPrefab>());
         answerPrefabs.FirstOrDefault().Init("???");
         GameplayManager.Get.currentStage = GameplayManager.GameplayStage.RunHalfQuestion;
@@ -235,7 +235,7 @@ public class FinalRound : RoundBase
             HostManager.Get.SendPayloadToClient(pl, EventLibrary.HostEventType.SimpleQuestion, $"{joinedQ}|{(GlobalTimeManager.Get.defaultFinalTime - 1).ToString()}");
         
         QuestionRunning();
-        DebugLog.Print($"FINAL #{(GameplayManager.nextFinalQuestionIndex + 1).ToString()} RESPONSES", DebugLog.StyleOption.Bold, DebugLog.ColorOption.Default);
+        DebugLog.Print($"FINAL #{(GameplayManager.Get.nextFinalQuestionIndex + 1).ToString()} RESPONSES", DebugLog.StyleOption.Bold, DebugLog.ColorOption.Default);
     }
 
     public override void QuestionRunning()
@@ -332,7 +332,7 @@ public class FinalRound : RoundBase
         SetNextPlayerInSequence();
 
         base.ResetForNewQuestion();
-        GameplayManager.nextFinalQuestionIndex++;
+        GameplayManager.Get.nextFinalQuestionIndex++;
 
         GameplayManager.Get.currentStage = finalists.Count(x => x.inFinal) == 1 ? GameplayManager.GameplayStage.RevealWinner : GameplayManager.GameplayStage.LoadQuestion;
     }

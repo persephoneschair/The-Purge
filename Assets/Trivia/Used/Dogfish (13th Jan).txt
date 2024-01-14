@@ -1,0 +1,479 @@
+{
+  "author": "dogfish44",
+  "tiebreaker": {
+    "questionText": "How many Amazon Rainforests would it take to cover the surface area of Mercury?",
+    "answers": [
+      {
+        "answerText": "13",
+        "isCorrect": true
+      }
+    ]
+  },
+  "mainGame": [
+    {
+      "questionText": "Which of these keyboard commands would you use to Undo on a Windows computer?",
+      "answers": [
+        {
+          "answerText": "Ctrl + Z",
+          "isCorrect": true
+        },
+        {
+          "answerText": "⌘ + Z",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which of the following is a type of knitting stitch?",
+      "answers": [
+        {
+          "answerText": "Purl",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Pythun",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "In 1665, who painted the Girl with a Pearl Earring?",
+      "answers": [
+        {
+          "answerText": "Vermeer",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Rembrandt",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Ramadan and Safar are months in the calendar for which religion?",
+      "answers": [
+        {
+          "answerText": "Islam",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Judaism",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "The Volga River flows into which body of water?",
+      "answers": [
+        {
+          "answerText": "Caspian Sea",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Black Sea",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "At the 2024 Golden Globes, which film won 'Best film - Drama'?",
+      "answers": [
+        {
+          "answerText": "Oppenheimer",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Anatomy of a Fall",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Maestro",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Zach Braff starred as Doctor J.D. Dorian in which long-running medical sitcom?",
+      "answers": [
+        {
+          "answerText": "Scrubs",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Doogie Howser, M.D.",
+          "isCorrect": false
+        },
+        {
+          "answerText": "ER",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "The University of Alabama has repeatedly attempted to assert a trademark for which textile pattern, a duotone broken-check design?",
+      "answers": [
+        {
+          "answerText": "Houndstooth",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Damask",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Argyle",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "In electronics, what would be measured in Coulombs?",
+      "answers": [
+        {
+          "answerText": "Charge",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Power",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Current",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Given any 2D map split into regions, how many colours are required to ensure each region does not share a colour with an adjacent region?",
+      "answers": [
+        {
+          "answerText": "Four",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Five",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Six",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which alcohol would you expect to find in a Singapore Sling?",
+      "answers": [
+        {
+          "answerText": "Gin",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Vodka",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Rum",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Scotch",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "What prominently features on the flag of Lebanon?",
+      "answers": [
+        {
+          "answerText": "Cedar Tree",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Crescent Moon",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Two-Headed Eagle",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Sun with Face",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "In which Shakespeare play would you find Rosencrantz and Guildenstern (who are, of course, dead)?",
+      "answers": [
+        {
+          "answerText": "Hamlet",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Cymbeline",
+          "isCorrect": false
+        },
+        {
+          "answerText": "The Merchant of Venice",
+          "isCorrect": false
+        },
+        {
+          "answerText": "A Midsummer Night's Dream",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which of these elements, often seen in catalytic convertors, is a transition metal?",
+      "answers": [
+        {
+          "answerText": "Platinum",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Magnesium",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Strontium",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Selenium",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "The 2009 Eurovision entry 'We Don't Wanna Put In' was rejected by the EBU, owing to it's highly political nature - understandably so, as Russia had invaded the country in 2008. Which country submitted this song?",
+      "answers": [
+        {
+          "answerText": "Georgia",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Ukraine",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Belarus",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Azerbaijan",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Who is the current World Record holder for both indoor and outdoor pole vaulting?",
+      "answers": [
+        {
+          "answerText": "Armand Duplantis",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Ryan Crouser",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Jan Železný",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Jürgen Schult",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Jonathan Edwards",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which author wrote the Perry Mason series of novels and short stories?",
+      "answers": [
+        {
+          "answerText": "Erle Stanley Gardner",
+          "isCorrect": true
+        },
+        {
+          "answerText": "John le Carré",
+          "isCorrect": false
+        },
+        {
+          "answerText": "James Patterson",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Lee Child",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Ian Rankin",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which of these does NOT appear in the Zener cards, which are used to conduct experiments for ESP?",
+      "answers": [
+        {
+          "answerText": "Triangle",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Circle",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Wavy Lines",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Square",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Star",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "What would a copoclephilist collect?",
+      "answers": [
+        {
+          "answerText": "Keyrings",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Sheet Music",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Snail Shells",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Tax Discs",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Delft Pottery",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "In 1994, which Nobel Prize was award to noted game theorist John Nash?",
+      "answers": [
+        {
+          "answerText": "Nobel Prize in Economics",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Nobel Prize in Physics",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Nobel Prize in Chemistry",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Nobel Prize in Mathematics",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Nobel Prize in Literature",
+          "isCorrect": false
+        }
+      ]
+    }
+  ],
+  "purgeGame": [
+    {
+      "questionText": "What sport is played on a field called a Gridiron?",
+      "answers": [
+        {
+          "answerText": "American Football,Football",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "Up, Down, Strange, Charm, Top, and Bottom are the six flavours of which type of elementary particle?",
+      "answers": [
+        {
+          "answerText": "Quark",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "'Vampire' was the lead single for the album 'Guts', the sophomore album for which singer-songwriter?",
+      "answers": [
+        {
+          "answerText": "Olivia Rodrigo,Rodrigo",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "Louis Diat is most associated with the creation of which potato and leek soup, which is traditionally served chilled?",
+      "answers": [
+        {
+          "answerText": "Vichyssoise,Vichysoise",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "L⁠u⁠d⁠w⁠i⁠g⁠ ⁠I⁠I⁠ ⁠o⁠f⁠ ⁠B⁠a⁠v⁠a⁠r⁠i⁠a⁠,⁠ ⁠w⁠h⁠o⁠ ⁠n⁠o⁠t⁠a⁠b⁠l⁠y⁠ ⁠c⁠o⁠m⁠m⁠i⁠s⁠s⁠i⁠o⁠n⁠e⁠d⁠ ⁠t⁠h⁠e⁠ ⁠N⁠e⁠u⁠s⁠c⁠h⁠w⁠a⁠n⁠s⁠t⁠e⁠i⁠n⁠ ⁠C⁠a⁠s⁠t⁠l⁠e⁠,⁠ ⁠i⁠s⁠ ⁠a⁠l⁠s⁠o⁠ ⁠k⁠n⁠o⁠w⁠n⁠ ⁠b⁠y⁠ ⁠w⁠h⁠i⁠c⁠h⁠ ⁠a⁠v⁠i⁠a⁠n⁠ ⁠n⁠i⁠c⁠k⁠n⁠a⁠m⁠e⁠?",
+      "answers": [
+        {
+          "answerText": "Swan King,Swan",
+          "isCorrect": true
+        }
+      ]
+    }
+  ],
+  "finalGame": [
+    {
+      "questionText": "Queen Margrethe II, who|is set to abdicate tomorrow, is well known for creating illustrations used in the Danish translation of which book?",
+      "answers": [
+        {
+          "answerText": "The Lord of the Rings,Lord of the Rings,LOTR",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "The 2030 FIFA World Cup is|set to be hosted by a combination of three nations - a combination of Spain, Portugal, and which African country?",
+      "answers": [
+        {
+          "answerText": "Morocco",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "'Ever Fallen in Love', 'Holding Out for a Hero', and 'Livin' la Vida Loca'|all feature in the soundtrack to which animated 2004 movie?",
+      "answers": [
+        {
+          "answerText": "Shrek 2",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "Glutamine, Lysine, and Arginine|are examples of what which organic compounds, of which 22 are capable of being incorporated into proteins?",
+      "answers": [
+        {
+          "answerText": "Amino Acids,Amino Acid",
+          "isCorrect": true
+        }
+      ]
+    }
+  ]
+}

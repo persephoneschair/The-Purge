@@ -22,8 +22,15 @@ public static class SaveManager
 
         GameplayDataSerializable gpd = new GameplayDataSerializable()
         {
-            nextQuestionNumber = GameplayManager.nextMainQuestionIndex,
+            nextMainGameQuestionIndex = GameplayManager.Get.nextMainQuestionIndex,
+            nextPurgeQuestionIndex = GameplayManager.Get.nextPurgeQuestionIndex,
+            nextFinalQuestionIndex = GameplayManager.Get.nextFinalQuestionIndex,
+            currentStage = GameplayManager.Get.currentStage,
             currentRound = GameplayManager.Get.currentRound,
+
+            currentBreakpoint = 100f - PurgeMeterManager.Get.currentBreakpoint,
+            currentStartingBreakpoint = PurgeMeterManager.Get.currentStartingBreakpoint,
+
             roundsPlayed = GameplayManager.Get.roundsPlayed
         };
 
@@ -31,15 +38,31 @@ public static class SaveManager
 
         File.WriteAllText(Application.persistentDataPath + "\\GameplayData.txt", gameStateData);
     }
+
     public static PlayerObjectSerializable NewPlayer(PlayerObject playerObject)
     {
         PlayerObjectSerializable pl = new PlayerObjectSerializable();
-        pl.playerName = playerObject.playerName;
         pl.playerClientID = playerObject.playerClientID;
+
+        pl.playerName = playerObject.playerName;
         pl.twitchName = playerObject.twitchName;
         pl.eliminated = playerObject.eliminated;
+
         pl.points = playerObject.points;
         pl.totalCorrect = playerObject.totalCorrect;
+
+        pl.distanceFromTiebreak = playerObject.distanceFromTiebreak;
+        pl.totalCorrect = playerObject.totalCorrect;
+        pl.mainGameCorrect = playerObject.mainGameCorrect;
+        pl.purgesSurvived = playerObject.purgesSurvived;
+
+        pl.submission = playerObject.submission;
+        pl.submissionTime = playerObject.submissionTime;
+        pl.flagForCondone = playerObject.flagForCondone;
+        pl.wasCorrect = playerObject.wasCorrect;
+        pl.inPurge = playerObject.inPurge;
+        pl.inFinal = playerObject.inFinal;
+
         return pl;
     }
 
@@ -47,10 +70,15 @@ public static class SaveManager
     {
         backupDataList.Clear();
 
+        Operator.Get.skipOpeningTitles = true;
+        GameplayManager.Get.ProgressGameplay();
+
         if(File.Exists(Application.persistentDataPath + "\\BackUpData.txt"))
             backupDataList = JsonConvert.DeserializeObject<List<PlayerObjectSerializable>>(File.ReadAllText(Application.persistentDataPath + "\\BackUpData.txt"));
         if (File.Exists(Application.persistentDataPath + "\\GameplayData.txt"))
             gameplayData = JsonConvert.DeserializeObject<GameplayDataSerializable>(File.ReadAllText(Application.persistentDataPath + "\\GameplayData.txt"));
+
+        RestoreGameplayState();
     }
 
     public static void RestorePlayer(PlayerObject po)
@@ -65,6 +93,18 @@ public static class SaveManager
 
             po.points = rc.points;
             po.totalCorrect = rc.totalCorrect;
+
+            po.distanceFromTiebreak = rc.distanceFromTiebreak;
+            po.totalCorrect = rc.totalCorrect;
+            po.purgesSurvived = rc.purgesSurvived;
+            po.mainGameCorrect = rc.mainGameCorrect;
+
+            po.submission = rc.submission;
+            po.submissionTime = rc.submissionTime;
+            po.flagForCondone = rc.flagForCondone;
+            po.wasCorrect = rc.wasCorrect;
+            po.inPurge = rc.inPurge;
+            po.inFinal = rc.inFinal;
         }
     }
 
@@ -81,11 +121,15 @@ public static class SaveManager
     {
         if(gameplayData != null)
         {
-            GameplayManager.nextMainQuestionIndex = gameplayData.nextQuestionNumber;
+            GameplayManager.Get.nextMainQuestionIndex = gameplayData.nextMainGameQuestionIndex;
+            GameplayManager.Get.nextPurgeQuestionIndex = gameplayData.nextPurgeQuestionIndex;
+            GameplayManager.Get.nextFinalQuestionIndex = gameplayData.nextFinalQuestionIndex;
+
+            GameplayManager.Get.currentStage = gameplayData.currentStage;
             GameplayManager.Get.currentRound = gameplayData.currentRound;
+
             GameplayManager.Get.roundsPlayed = gameplayData.roundsPlayed;
         }
-        Operator.Get.recoveryMode = false;
-        HostManager.Get.host.ReloadHost = false;
+        Operator.Get.RecoveryCompleted();
     }
 }

@@ -165,7 +165,7 @@ public class PurgeMeterManager : SingletonMonoBehaviour<PurgeMeterManager>
             ChevronManager.Get.MultiPulse(true);
             GameplayManager.Get.currentRound = GameplayManager.Round.PurgeRound;
             GameplayManager.Get.currentStage = GameplayManager.GameplayStage.LoadQuestion;
-            DebugLog.Print($"PURGE #{(GameplayManager.nextPurgeQuestionIndex + 1).ToString()} TRIGGERED", DebugLog.StyleOption.Bold, DebugLog.ColorOption.Red);
+            DebugLog.Print($"PURGE #{(GameplayManager.Get.nextPurgeQuestionIndex + 1).ToString()} TRIGGERED", DebugLog.StyleOption.Bold, DebugLog.ColorOption.Red);
         }
     }
 

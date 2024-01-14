@@ -28,15 +28,17 @@ public class Operator : SingletonMonoBehaviour<Operator>
     public override void Awake()
     {
         base.Awake();
-        if (recoveryMode) { }
-            //skipOpeningTitles = true;
     }
 
     private void Start()
     {
-        HostManager.Get.host.ReloadHost = recoveryMode;
         if (recoveryMode)
-            SaveManager.RestoreData();
+        {
+            skipOpeningTitles = true;
+            HostManager.Get.host.ReloadHost = true;
+        }
+
+        HostManager.Get.host.Init();
 
         if (questionPack != null)
             QuestionManager.DecompilePack(questionPack);
@@ -50,6 +52,9 @@ public class Operator : SingletonMonoBehaviour<Operator>
         //HotseatPlayerEvent.Log(PlayerObject, "");
         //AudiencePlayerEvent.Log(PlayerObject, "");
         EventLogger.PrintLog();
+
+        if (recoveryMode)
+            SaveManager.RestoreData();
     }
 
     [Button]
@@ -63,5 +68,24 @@ public class Operator : SingletonMonoBehaviour<Operator>
     public void Save()
     {
         SaveManager.BackUpData();
+    }
+
+    public void RecoveryCompleted()
+    {
+        Invoke("LockDelay", 5f);
+    }
+
+    private void LockDelay()
+    {
+        LobbyManager.Get.OnLockLobby();
+        recoveryMode = false;
+        HostManager.Get.host.ReloadHost = false;
+        skipOpeningTitles = false;
+
+        PurgeMeterManager.Get.currentBreakpoint = SaveManager.gameplayData.currentBreakpoint;
+        PurgeMeterManager.Get.currentStartingBreakpoint = SaveManager.gameplayData.currentStartingBreakpoint;
+
+        PurgeMeterManager.Get.setManualBreakPoint = 100 - PurgeMeterManager.Get.currentBreakpoint;
+        PurgeMeterManager.Get.SetManualBreakpoint();
     }
 }

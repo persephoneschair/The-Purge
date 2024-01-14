@@ -1,0 +1,479 @@
+{
+  "author": "ramseyfox",
+  "tiebreaker": {
+    "questionText": "Including multi-number bets (splits, corners, e.g.), how many betting spots are on a standard single-0 roulette table?",
+    "answers": [
+      {
+        "answerText": "157",
+        "isCorrect": true
+      }
+    ]
+  },
+  "mainGame": [
+    {
+      "questionText": "In English, which word is the definite article?",
+      "answers": [
+        {
+          "answerText": "The",
+          "isCorrect": true
+        },
+        {
+          "answerText": "A",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which music megastar set a record by claiming all of the Top 10 spots in the Billboard Top 100 in October 2022?",
+      "answers": [
+        {
+          "answerText": "Taylor Swift",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Adele",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Hammurabi ruled as king of which ancient empire circa 1800-1750 BC? ",
+      "answers": [
+        {
+          "answerText": "Babylonian",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Egyptian",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "After a draw in this year's series, which national cricket team retained The Ashes, having previously won the 2021-22 series?",
+      "answers": [
+        {
+          "answerText": "Australia",
+          "isCorrect": true
+        },
+        {
+          "answerText": "England",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "The term Impressionist is often credited as being coined in a negative review of which artist's piece 'Impression, Sunrise'?",
+      "answers": [
+        {
+          "answerText": "Claude Monet",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Edouard Manet",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Natrium is the Latin name for which metal?",
+      "answers": [
+        {
+          "answerText": "Sodium",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Potassium",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Magnesium",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which Star Wars film has the highest worldwide box office gross, at over $2 billion?",
+      "answers": [
+        {
+          "answerText": "Episode VII: The Force Awakens",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Episode I: The Phantom Menace",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Episode IV: A New Hope",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "The unbelievably long-running animated sitcom 'The Simpsons' is currently in which season?",
+      "answers": [
+        {
+          "answerText": "35th",
+          "isCorrect": true
+        },
+        {
+          "answerText": "30th",
+          "isCorrect": false
+        },
+        {
+          "answerText": "40th",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which of these is the all-time best-selling video game console, with over 155 million sold?",
+      "answers": [
+        {
+          "answerText": "Playstation 2",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Nintendo 64",
+          "isCorrect": false
+        },
+        {
+          "answerText": "XBox360",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "The 1940 Disney film 'Fantasia' begins with a performance of 'Toccata & Fugue in D Minor', an organ piece generally attributed to which composer?",
+      "answers": [
+        {
+          "answerText": "Bach",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Beethoven",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Brahms",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "The Apple IIe home computer first released in 1983 with how much onboard RAM?",
+      "answers": [
+        {
+          "answerText": "64 KB",
+          "isCorrect": true
+        },
+        {
+          "answerText": "8 KB",
+          "isCorrect": false
+        },
+        {
+          "answerText": "256 KB",
+          "isCorrect": false
+        },
+        {
+          "answerText": "1 MB",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which of these fashion designers is still alive?",
+      "answers": [
+        {
+          "answerText": "Ralph Lauren",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Coco Chanel",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Gianni Versace",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Guccio Gucci",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "By definition, which of these quadrilaterals must have 4 sides of equal length?",
+      "answers": [
+        {
+          "answerText": "Rhombus",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Kite",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Parallelogram",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Trapezium",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "What type of dish is Vichyssoise?",
+      "answers": [
+        {
+          "answerText": "Soup",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Pastry",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Salad",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Meat",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "In what year did the IAU downgrade Pluto to a 'Dwarf Planet'?",
+      "answers": [
+        {
+          "answerText": "2006",
+          "isCorrect": true
+        },
+        {
+          "answerText": "2000",
+          "isCorrect": false
+        },
+        {
+          "answerText": "2003",
+          "isCorrect": false
+        },
+        {
+          "answerText": "2009",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Agatha Christie's first published novel, 'The Mysterious Affair at Styles' starred which detective(s)?",
+      "answers": [
+        {
+          "answerText": "Hercule Poirot",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Miss Marple",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Tommy and Tuppence",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Harley Quinn",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Parker Pyne",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which of these animals is not a mollusk?",
+      "answers": [
+        {
+          "answerText": "Common Starfish",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Blue-ringed Octopus",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Giant Clam",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Garden Snail",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Banana Slug",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which city is the world's southernmost world capital of a sovereign state?",
+      "answers": [
+        {
+          "answerText": "Wellington",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Buenos Aires",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Canberra",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Cape Town",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Montevideo",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "What is the penultimate letter of the Greek Alphabet?",
+      "answers": [
+        {
+          "answerText": "ψ (Psi)",
+          "isCorrect": true
+        },
+        {
+          "answerText": "χ (Chi)",
+          "isCorrect": false
+        },
+        {
+          "answerText": "υ (Upsilon)",
+          "isCorrect": false
+        },
+        {
+          "answerText": "τ (Tau)",
+          "isCorrect": false
+        },
+        {
+          "answerText": "φ (Phi)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Which tech company, the maker of ChatGPT, made headlines last month as nearly all of its 800 employees threatened to quit if ousted CEO Sam Altman was not reinstated?",
+      "answers": [
+        {
+          "answerText": "OpenAI",
+          "isCorrect": true
+        },
+        {
+          "answerText": "DataRobot",
+          "isCorrect": false
+        },
+        {
+          "answerText": "DeepMind",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Clarifai",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Moveworks",
+          "isCorrect": false
+        }
+      ]
+    }
+  ],
+  "purgeGame": [
+    {
+      "questionText": "In the classic carol, what sort of bird is given in a pear tree on the First Day of Christmas?",
+      "answers": [
+        {
+          "answerText": "Partridge",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "'Force equals Mass times Acceleration' is a summary of which scientist's Second Law of Motion?",
+      "answers": [
+        {
+          "answerText": "Isaac Newton,Sir Isaac Newton,Newton,Newton's",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "Who fatally shot Alexander Hamilton in a duel, while serving as the Third Vice President of the United States?",
+      "answers": [
+        {
+          "answerText": "Aaron Burr,Burr",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "The U.S. Figure Skating Championship awards a Fourth Place medal made of what tin-based alloy?",
+      "answers": [
+        {
+          "answerText": "Pewter",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "In music, what note is an augmented fifth above E-flat?",
+      "answers": [
+        {
+          "answerText": "B",
+          "isCorrect": true
+        }
+      ]
+    }
+  ],
+  "finalGame": [
+    {
+      "questionText": "Which former UK Prime Minister|previously held the record for shortest tenure prior to Liz Truss, having died 119 days into his term in 1827.",
+      "answers": [
+        {
+          "answerText": "George Canning,Canning",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "Sets of what classic board game|come with an additional die known as a Doubling Cube, used to offer and track increases in stakes?",
+      "answers": [
+        {
+          "answerText": "Backgammon",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "Which Broadway musical|by Andrew Lloyd Webber closed its record-breaking Broadway run this April after 35 years and over 13,000 performances?",
+      "answers": [
+        {
+          "answerText": "Phantom of the Opera,Phantom",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "questionText": "According to the IBA, which cocktail|is made from just three ingredients: white rum, lime juice, and sugar?",
+      "answers": [
+        {
+          "answerText": "Daiquiri",
+          "isCorrect": true
+        }
+      ]
+    }
+  ]
+}

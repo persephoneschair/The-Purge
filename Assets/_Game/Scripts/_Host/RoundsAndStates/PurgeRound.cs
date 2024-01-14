@@ -12,7 +12,7 @@ public class PurgeRound : RoundBase
         questionLozengeAnim.SetTrigger("toggle");
         CameraLerpManager.Get.ZoomToPosition(CameraLerpManager.CameraPosition.Audience, 50f);
 
-        currentQuestion = QuestionManager.currentPack.purgeGame[GameplayManager.nextPurgeQuestionIndex];
+        currentQuestion = QuestionManager.currentPack.purgeGame[GameplayManager.Get.nextPurgeQuestionIndex];
         answerPrefabs.Add(Instantiate(answerPrefabToInstance, answerPrefabTarget).GetComponent<AnswerPrefab>());
         answerPrefabs.FirstOrDefault().Init("???");
 
@@ -38,7 +38,7 @@ public class PurgeRound : RoundBase
             }
         }
         GameplayManager.Get.currentStage = GameplayManager.GameplayStage.RunQuestion;
-        DebugLog.Print($"PLAYERS IN PURGE #{(GameplayManager.nextPurgeQuestionIndex + 1).ToString()}:", DebugLog.StyleOption.Bold);
+        DebugLog.Print($"PLAYERS IN PURGE #{(GameplayManager.Get.nextPurgeQuestionIndex + 1).ToString()}:", DebugLog.StyleOption.Bold);
         foreach (PlayerObject po in PlayerManager.Get.players.Where(x => x.inPurge))
             DebugLog.Print(po.playerName, DebugLog.StyleOption.Bold, DebugLog.ColorOption.Orange);
     }
@@ -47,7 +47,7 @@ public class PurgeRound : RoundBase
     {
         base.RunQuestion();
         StartCoroutine(RunQuestionLate());
-        DebugLog.Print($"PURGE #{(GameplayManager.nextPurgeQuestionIndex + 1).ToString()} RESPONSES", DebugLog.StyleOption.Bold, DebugLog.ColorOption.Default);
+        DebugLog.Print($"PURGE #{(GameplayManager.Get.nextPurgeQuestionIndex + 1).ToString()} RESPONSES", DebugLog.StyleOption.Bold, DebugLog.ColorOption.Default);
     }
 
     public override IEnumerator RunQuestionLate()
@@ -128,8 +128,8 @@ public class PurgeRound : RoundBase
             po.purgesSurvived++;
 
         base.ResetForNewQuestion();
-        GameplayManager.nextPurgeQuestionIndex++;
-        GameplayManager.nextMainQuestionIndex++;
+        GameplayManager.Get.nextPurgeQuestionIndex++;
+        GameplayManager.Get.nextMainQuestionIndex++;
         PurgeMeterManager.Get.ResetTheMeter();
 
         if (ReadyForFinal())

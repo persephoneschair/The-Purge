@@ -849,12 +849,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d85e3651af7290841ae573c014eec2e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  testMode: 1
-  skipOpeningTitles: 1
-  fastValidation: 1
+  testMode: 0
+  skipOpeningTitles: 0
+  fastValidation: 0
   recoveryMode: 0
   playerLimit: 75
-  questionPack: {fileID: 4900000, guid: 213fcc4fb4cb58c478f724d11406ea5f, type: 3}
+  questionPack: {fileID: 4900000, guid: b3a4586cf58e56a47994a419317359a2, type: 3}
   legacyQuestionPack: {fileID: 0}
   legacyAuthorName: 
   exportedLegacyPack: 
@@ -3012,7 +3012,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 52.35
+  m_fontSize: 30.45
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -42441,6 +42441,9 @@ MonoBehaviour:
   - {fileID: 2101123126}
   - {fileID: 785421946}
   - {fileID: 1243700502}
+  nextMainQuestionIndex: 0
+  nextPurgeQuestionIndex: 0
+  nextFinalQuestionIndex: 0
   currentStage: 0
   currentRound: 4
   roundsPlayed: 0
@@ -44243,7 +44246,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 250
+  m_fontSize: 173.4
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -46333,9 +46336,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   endCard: {fileID: 1599009729}
   authorNames:
-  - Will Chadwick
-  - Joseph Freeman
+  - Josh Halbur
   - Zeus Kanji
+  - James Larkin
   - Ben Lathbury
   creditsMesh: {fileID: 1683145272}
   creditsAnim: {fileID: 2080482957}
@@ -46568,7 +46571,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 68.75
+  m_fontSize: 40
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -49941,7 +49944,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 58.2
+  m_fontSize: 32.85
   m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -52176,7 +52179,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 38.35
+  m_fontSize: 22.35
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1

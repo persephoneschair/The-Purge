@@ -56,12 +56,12 @@ public static class QuestionManager
 
     public static bool EndOfMainGameQs()
     {
-        return GameplayManager.nextMainQuestionIndex >= currentPack.mainGame.Count ? true : false;
+        return GameplayManager.Get.nextMainQuestionIndex >= currentPack.mainGame.Count ? true : false;
     }
 
     public static bool EndOfPurgeQs()
     {
-        return GameplayManager.nextPurgeQuestionIndex >= currentPack.purgeGame.Count ? true : false;
+        return GameplayManager.Get.nextPurgeQuestionIndex >= currentPack.purgeGame.Count ? true : false;
     }
 
 

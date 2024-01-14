@@ -106,7 +106,7 @@ namespace Control
             UserID = Guid.NewGuid().ToString();
         }
 
-        protected virtual void Start()
+        public virtual void Init()
         {
             Connect();
         }
